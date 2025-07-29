@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="elec-style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- 🔙 Back icon link at the top -->
+    <nav class="navbar">
+      <a href="index.html" class="fa-solid fa-circle-left"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Products</a></li>
+        <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--Electronics section-->
+  <div class="container">
+    <h1>Explore the latest in Electronics!</h1>
+    <p class="description">Here are some amazing electronic Gadgets for you!</p>
+
+    <div class="product-grid">
+
+      <div class="product">
+        <img src="images/headsets.png" alt="Wireless Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>₹1500</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/iphone16.jpg" alt="Smartphone">
+        <h3>iphone16</h3>
+        <p>₹72000</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/kettle.jpg" alt="Electric Kettle">
+        <h3>Electric Kettle</h3>
+        <p>₹949</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/led bulbs.jpg" alt="Smart Bulb">
+        <h3>Smart Bulb</h3>
+        <p>₹999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/watch.jpg" alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>₹2999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/dj.jpg" alt="Speaker">
+        <h3>Speaker</h3>
+        <p>₹1700</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+ 
+      <div class="product">
+        <img src="images/power bank.jpeg" alt="Power bank">
+        <h3>Power Bank </h3>
+        <p>₹1999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/polaroid camera.jpg" alt="Camera">
+        <h3>Polaroid Camera</h3>
+        <p>₹6499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
