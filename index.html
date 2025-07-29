@@ -1,107 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ShopMate Website</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- Header -->
   <header>
     <nav class="navbar">
-    <div class="logo">
-      <img src="./images/shopmate.jpg" alt="ShopMate Logo"/>
-    </div>
-    <ul class="nav-links">
-      <li class="navbar-home">Home</li>
-      <li><a href="index.html">Products</a></li>
-      <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
-    </ul>
-  </nav>
+      <div class="logo">
+        <img src="./images/shopmate.jpg" alt="ShopMate Logo" />
+      </div>
+      <ul class="nav-links">
+        <li class="navbar-home">Home</li>
+        <li><a href="index.html">Products</a></li>
+        <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
   </header>
-     <!-- Hero Section -->
+  <!-- Hero Section -->
   <main>
-<section class="hero">
-  <div class="hero-content">
-    <h1>Welcome to ShopMate</h1>
-    <p>Shop Smart, Shop Fast - ShopMate!</p>
-    <a href="#product-list" class="hero-btn">Shop Now</a>
-  </div>
-</section>
-
-<!-- SVG Wave -->
-
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to ShopMate😊</h1>
+        <p>🛒Shop Smart, Shop Fast - ShopMate!🛒</p>
+        <a href="#product-list" class="hero-btn">Shop Now</a>
+      </div>
+    </section>
   </main>
   <!--hero section end-->
 
-<!--Product Section-->
-   <h1>Our Products</h1>
-    <div class="product-grid" id="product-list">
-      </div>
-<!--Product Section end-->
+  <!--Product Section-->
+  <h1>Our Products</h1>
+  <div class="product-grid" id="product-list">
+  </div>
+  <!--Product Section end-->
 
-<!--features section-->
-<section class="features-section">
-  <div class="container">
-    <h2 class="section-title">Why Shop with ShopMate?</h2>
-    <div class="features-grid">
-      <div class="feature-item">
-        <i class="fa-solid fa-truck-fast"></i>
-        <h3>Fast Delivery</h3>
-        <p>Get your products delivered quickly and reliably to your doorstep.</p>
+  <!--features section-->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">Why Shop with ShopMate?</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h3>Fast Delivery</h3>
+          <p>Get your products delivered quickly and reliably to your doorstep.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-shield"></i>
+          <h3>Secure Payment</h3>
+          <p>All transactions are encrypted and 100% secure for your safety.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-star"></i>
+          <h3>Best Quality</h3>
+          <p>We offer only the highest quality products from trusted brands.</p>
+        </div>
       </div>
-      <div class="feature-item">
-      <i class="fa-solid fa-shield"></i>
-        <h3>Secure Payment</h3>
-        <p>All transactions are encrypted and 100% secure for your safety.</p>
+    </div>
+  </section>
+  <!--feature section end-->
+
+  <!--top categories section-->
+
+  <section class="categories-section">
+    <div class="container">
+      <h2 class="section-title">Top Categories</h2>
+      <div class="categories-grid">
+
+        <div class="category-card" data-category="Electronics">
+          <img src="images/electronics.jpeg" alt="Electronics">
+          <div class="category-title">Electronics</div>
+        </div>
+
+        <div class="category-card" data-category="Fashion">
+          <img src="images/fashion.png" alt="Fashion">
+          <div class="category-title">Fashion</div>
+        </div>
+
+        <div class="category-card" data-category="Home decor">
+          <img src="images/home decor.jpg" alt="Home Decor">
+          <div class="category-title">Home Decor</div>
+        </div>
       </div>
-      <div class="feature-item">
-       <i class="fa-solid fa-star"></i>
-        <h3>Best Quality</h3>
-        <p>We offer only the highest quality products from trusted brands.</p>
+    </div>
+  </section>
+  <!--top categories section end-->
+
+<!--footer section-->
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h2>About Us</h2>
+      <p>We provide high-quality products at the best prices. Follow us for updates and offers.</p>
+    </div>
+
+    <div class="footer-section links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h2>Contact</h2>
+      <p>Email: ShopMate@example.com</p>
+      <p>Phone: +91 98765 XXXXX</p>
+    </div>
+
+    <div class="footer-section social">
+      <h2>Follow Us</h2>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
       </div>
     </div>
   </div>
-</section>
-<!--feature section end-->
-
-<!--top categories section-->
-
-<section class="categories-section">
-  <div class="container">
-    <h2 class="section-title">Top Categories</h2>
-    <div class="categories-grid">
-      
-      <div class="category-card"
-        data-category="Electronics">
-        <img src="images/electronics.jpeg" alt="Electronics">
-        <div class="category-title">Electronics</div>
-      </div>
-
-      <div class="category-card"
-      data-category="Fashion">
-        <img src="images/fashion.png" alt="Fashion">
-        <div class="category-title">Fashion</div>
-      </div>
-
-      <div class="category-card"
-      data-category="Home decor">
-        <img src="images/home decor.jpg" alt="Home Decor">
-        <div class="category-title">Home Decor</div>
-      </div>
-    </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 ShopMate Website. All rights reserved.</p>
   </div>
-</section>
-<!--top categories section end-->
-
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 ShopMate. All rights reserved.</p>
-  </footer>
-
+</footer>
   <script src="script.js"></script>
 </body>
 </html>
