@@ -5,7 +5,7 @@
 }
 
 body {
- font-family: "Urbanist", sans-serif;
+ font-family: poppins, sans-serif;
   background-color: #f8f9fa;
 }
 
@@ -80,7 +80,7 @@ h1{
     color: #333;
     font-weight: bold;
     font-size: 50px; 
-   font-family: lobster;
+   font-family: playfair display, serif;
 }
 h3{
     text-align: center;
